@@ -1,0 +1,307 @@
+[
+    {
+        "pregunta": "¿Cuál es la capital de Francia?",
+        "respuestas": [
+            "Londres",
+            "París",
+            "Berlín",
+            "Madrid"
+        ],
+        "correcta": "París"
+    },
+    {
+        "pregunta": "¿Cuántos planetas hay en el Sistema Solar?",
+        "respuestas": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "correcta": "8"
+    },
+    {
+        "pregunta": "¿Cuál es el planeta más cercano al Sol?",
+        "respuestas": [
+            "Venus",
+            "Marte",
+            "Mercurio",
+            "Júpiter"
+        ],
+        "correcta": "Mercurio"
+    },
+    {
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "respuestas": [
+            "Océano Atlántico",
+            "Océano Índico",
+            "Océano Pacífico",
+            "Océano Ártico"
+        ],
+        "correcta": "Océano Pacífico"
+    },
+    {
+        "pregunta": "¿En qué año llegó el hombre a la Luna?",
+        "respuestas": [
+            "1965",
+            "1969",
+            "1972",
+            "1980"
+        ],
+        "correcta": "1969"
+    },
+    {
+        "pregunta": "¿Cuál es el idioma más hablado en España?",
+        "respuestas": [
+            "Francés",
+            "Español",
+            "Italiano",
+            "Alemán"
+        ],
+        "correcta": "Español"
+    },
+
+    {
+        "pregunta": "¿Cuánto es 5 × 6?",
+        "respuestas": [
+            "20",
+            "25",
+            "30",
+            "35"
+        ],
+        "correcta": "30"
+    },
+    {
+        "pregunta": "¿Cuánto es 144 ÷ 12?",
+        "respuestas": [
+            "10",
+            "11",
+            "12",
+            "14"
+        ],
+        "correcta": "12"
+    },
+    {
+        "pregunta": "¿Cuál es el resultado de 15 + 27?",
+        "respuestas": [
+            "32",
+            "40",
+            "42",
+            "45"
+        ],
+        "correcta": "42"
+    },
+    {
+        "pregunta": "¿Cuál es el resultado de 9²?",
+        "respuestas": [
+            "18",
+            "72",
+            "81",
+            "90"
+        ],
+        "correcta": "81"
+    },
+    {
+        "pregunta": "¿Cuánto es el 20% de 100?",
+        "respuestas": [
+            "10",
+            "20",
+            "25",
+            "50"
+        ],
+        "correcta": "20"
+    },
+    {
+        "pregunta": "¿Cuántos lados tiene un hexágono?",
+        "respuestas": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "correcta": "6"
+    },
+
+    {
+        "pregunta": "¿Qué país ganó el Mundial de fútbol de 2010?",
+        "respuestas": [
+            "Brasil",
+            "Alemania",
+            "España",
+            "Argentina"
+        ],
+        "correcta": "España"
+    },
+    {
+        "pregunta": "¿Cuántos jugadores tiene un equipo de fútbol en el campo?",
+        "respuestas": [
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "correcta": "11"
+    },
+    {
+        "pregunta": "¿En qué deporte se utiliza una raqueta?",
+        "respuestas": [
+            "Tenis",
+            "Fútbol",
+            "Baloncesto",
+            "Natación"
+        ],
+        "correcta": "Tenis"
+    },
+    {
+        "pregunta": "¿Cuántos puntos vale un triple en baloncesto?",
+        "respuestas": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "correcta": "3"
+    },
+    {
+        "pregunta": "¿En qué deporte se utiliza un balón ovalado?",
+        "respuestas": [
+            "Rugby",
+            "Tenis",
+            "Béisbol",
+            "Golf"
+        ],
+        "correcta": "Rugby"
+    },
+    {
+        "pregunta": "¿Cuántos anillos tiene el símbolo de los Juegos Olímpicos?",
+        "respuestas": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "correcta": "5"
+    },
+
+    {
+        "pregunta": "¿Quién pintó la Mona Lisa?",
+        "respuestas": [
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Vincent van Gogh",
+            "Miguel Ángel"
+        ],
+        "correcta": "Leonardo da Vinci"
+    },
+    {
+        "pregunta": "¿Quién escribió Don Quijote de la Mancha?",
+        "respuestas": [
+            "Miguel de Cervantes",
+            "William Shakespeare",
+            "Federico García Lorca",
+            "Gabriel García Márquez"
+        ],
+        "correcta": "Miguel de Cervantes"
+    },
+    {
+        "pregunta": "¿En qué continente se encuentra Egipto?",
+        "respuestas": [
+            "Europa",
+            "Asia",
+            "África",
+            "América"
+        ],
+        "correcta": "África"
+    },
+    {
+        "pregunta": "¿Cuál es el país más grande del mundo por superficie?",
+        "respuestas": [
+            "China",
+            "Estados Unidos",
+            "Canadá",
+            "Rusia"
+        ],
+        "correcta": "Rusia"
+    },
+    {
+        "pregunta": "¿Cuál es la montaña más alta del mundo?",
+        "respuestas": [
+            "K2",
+            "Everest",
+            "Mont Blanc",
+            "Annapurna"
+        ],
+        "correcta": "Everest"
+    },
+    {
+        "pregunta": "¿Cuál es el río más largo de España?",
+        "respuestas": [
+            "Ebro",
+            "Tajo",
+            "Duero",
+            "Guadalquivir"
+        ],
+        "correcta": "Tajo"
+    },
+
+    {
+        "pregunta": "¿Qué lenguaje se utiliza principalmente para dar estilo a una página web?",
+        "respuestas": [
+            "HTML",
+            "CSS",
+            "Java",
+            "SQL"
+        ],
+        "correcta": "CSS"
+    },
+    {
+        "pregunta": "¿Qué lenguaje se utiliza para añadir interactividad a una página web?",
+        "respuestas": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "XML"
+        ],
+        "correcta": "JavaScript"
+    },
+    {
+        "pregunta": "¿Cuál de estos es un navegador web?",
+        "respuestas": [
+            "Google Chrome",
+            "MySQL",
+            "Java",
+            "Windows"
+        ],
+        "correcta": "Google Chrome"
+    },
+    {
+        "pregunta": "¿Qué significa HTML?",
+        "respuestas": [
+            "HyperText Markup Language",
+            "HighText Machine Language",
+            "HyperTool Modern Language",
+            "HomeText Markup Language"
+        ],
+        "correcta": "HyperText Markup Language"
+    },
+
+    {
+        "pregunta": "¿Qué instrumento tiene normalmente 88 teclas?",
+        "respuestas": [
+            "Guitarra",
+            "Piano",
+            "Violín",
+            "Batería"
+        ],
+        "correcta": "Piano"
+    },
+    {
+        "pregunta": "¿Cuántas cuerdas tiene una guitarra clásica?",
+        "respuestas": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "correcta": "6"
+    }
+]

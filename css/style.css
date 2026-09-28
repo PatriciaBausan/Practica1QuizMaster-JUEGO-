@@ -1,0 +1,835 @@
+/* =========================================
+   CONFIGURACIÓN GENERAL
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    color: white;
+
+    background: 
+        radial-gradient(circle at 20% 20%, #241052 0%, transparent 30%),
+        radial-gradient(circle at 80% 70%, #071b4d 0%, transparent 35%),
+        #050509;
+
+    overflow-x: hidden;
+}
+
+
+/* =========================================
+   BARRA SUPERIOR
+========================================= */
+
+.navbar {
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 60px;
+
+    background: rgba(5, 5, 12, 0.85);
+
+    border-bottom: 1px solid rgba(166, 77, 255, 0.3);
+
+    box-shadow: 
+        0 0 20px rgba(124, 58, 237, 0.15);
+
+    backdrop-filter: blur(10px);
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.logo {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.logo-icon {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #a855f7,
+        #2563eb
+    );
+
+    color: white;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    box-shadow: 
+        0 0 15px rgba(168, 85, 247, 0.8), 
+        0 0 30px rgba(37, 99, 235, 0.4);
+}
+
+.nombre-logo {
+    color: #c084fc;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    text-shadow: 
+        0 0 8px rgba(192, 132, 252, 0.8), 
+        0 0 20px rgba(168, 85, 247, 0.4);
+}
+
+
+/* =========================================
+   JUGADOR
+========================================= */
+
+.jugador {
+    margin-left: auto;
+
+    padding: 10px 18px;
+
+    border: 1px solid rgba(168, 85, 247, 0.5);
+
+    border-radius: 10px;
+
+    background: rgba(168, 85, 247, 0.08);
+
+    color: #d8b4fe;
+
+    font-size: 14px;
+
+    box-shadow: 
+        0 0 10px rgba(168, 85, 247, 0.15);
+}
+
+#nombreJugador {
+    color: white;
+
+    font-weight: bold;
+
+    margin-left: 5px;
+}
+
+
+/* =========================================
+   RONDA
+========================================= */
+
+.ronda {
+    padding: 10px 18px;
+
+    margin-left: 15px;
+
+    border-radius: 10px;
+
+    background: rgba(37, 99, 235, 0.12);
+
+    border: 1px solid rgba(37, 99, 235, 0.5);
+
+    color: #93c5fd;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    box-shadow: 
+        0 0 12px rgba(37, 99, 235, 0.2);
+}
+
+
+/* =========================================
+   PÁGINA DE INICIO
+========================================= */
+
+.inicio {
+    min-height: calc(100vh - 80px);
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 60px 20px;
+
+    position: relative;
+}
+
+
+/* =========================================
+   ETIQUETA DE BIENVENIDA
+========================================= */
+
+.etiqueta {
+    padding: 10px 22px;
+
+    margin-bottom: 25px;
+
+    border: 1px solid #a855f7;
+
+    border-radius: 30px;
+
+    color: #d8b4fe;
+
+    background: rgba(168, 85, 247, 0.08);
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+    box-shadow: 
+        0 0 10px rgba(168, 85, 247, 0.4), 
+        inset 0 0 10px rgba(168, 85, 247, 0.05);
+
+    animation: aparecer 1s ease;
+}
+
+
+/* =========================================
+   TÍTULO
+========================================= */
+
+h1 {
+    font-size: 64px;
+
+    line-height: 1.05;
+
+    margin-bottom: 20px;
+
+    font-weight: 800;
+
+    letter-spacing: -2px;
+
+    animation: aparecer 1s ease;
+}
+
+h1 span {
+    color: #a855f7;
+
+    text-shadow: 
+        0 0 10px rgba(168, 85, 247, 0.9), 
+        0 0 25px rgba(168, 85, 247, 0.6), 
+        0 0 45px rgba(168, 85, 247, 0.3);
+}
+
+
+/* =========================================
+   SUBTÍTULO
+========================================= */
+
+.subtitulo {
+    color: #a5b4fc;
+
+    font-size: 18px;
+
+    margin-bottom: 35px;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================================
+   TARJETA DE INICIO
+========================================= */
+
+.tarjeta {
+    width: 420px;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    background: rgba(12, 12, 24, 0.85);
+
+    border: 1px solid rgba(168, 85, 247, 0.45);
+
+    box-shadow: 
+        0 0 20px rgba(168, 85, 247, 0.2), 
+        0 0 50px rgba(37, 99, 235, 0.12);
+
+    backdrop-filter: blur(12px);
+
+    animation: subir 1s ease;
+}
+
+
+/* =========================================
+   LABEL
+========================================= */
+
+.tarjeta label {
+    display: block;
+
+    text-align: left;
+
+    margin-bottom: 10px;
+
+    color: #d8b4fe;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+
+/* =========================================
+   INPUT
+========================================= */
+
+.input-container {
+    width: 100%;
+}
+
+.input-container input {
+    width: 100%;
+
+    padding: 15px 18px;
+
+    border-radius: 10px;
+
+    border: 1px solid #3730a3;
+
+    outline: none;
+
+    background: #080812;
+
+    color: white;
+
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+.input-container input::placeholder {
+    color: #6b7280;
+}
+
+.input-container input:focus {
+    border-color: #a855f7;
+
+    box-shadow: 
+        0 0 10px rgba(168, 85, 247, 0.5), 
+        0 0 25px rgba(37, 99, 235, 0.2);
+}
+
+
+/* =========================================
+   BOTÓN INICIAR
+========================================= */
+
+#btnIniciar {
+    width: 100%;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: linear-gradient(
+        90deg,
+        #9333ea,
+        #2563eb
+    );
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    letter-spacing: 0.5px;
+
+    box-shadow: 
+        0 0 15px rgba(168, 85, 247, 0.5);
+
+    transition: 0.3s;
+}
+
+#btnIniciar:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 
+        0 0 15px rgba(168, 85, 247, 0.8), 
+        0 0 35px rgba(37, 99, 235, 0.5);
+}
+
+#btnIniciar:active {
+    transform: scale(0.97);
+}
+
+
+/* =========================================
+   PÁGINA DEL JUEGO
+========================================= */
+
+.juego {
+    width: 100%;
+
+    min-height: calc(100vh - 80px);
+
+    padding: 50px 20px 80px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+/* =========================================
+   CONTENEDOR DE PREGUNTAS
+========================================= */
+
+#preguntas {
+    width: 100%;
+
+    max-width: 850px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+
+/* =========================================
+   TARJETA DE PREGUNTA
+========================================= */
+
+.tarjeta-pregunta {
+    width: 100%;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    background: rgba(12, 12, 24, 0.9);
+
+    border: 1px solid rgba(168, 85, 247, 0.45);
+
+    box-shadow: 
+        0 0 20px rgba(168, 85, 247, 0.18), 
+        0 0 50px rgba(37, 99, 235, 0.10);
+
+    backdrop-filter: blur(12px);
+
+    animation: aparecer 0.6s ease;
+}
+
+
+/* =========================================
+   TEXTO "PREGUNTA"
+========================================= */
+
+.tarjeta-pregunta > p {
+    margin-bottom: 12px;
+
+    color: #a855f7;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    text-shadow: 
+        0 0 8px rgba(168, 85, 247, 0.7);
+}
+
+
+/* =========================================
+   TEXTO DE LA PREGUNTA
+========================================= */
+
+.tarjeta-pregunta h2 {
+    margin-bottom: 25px;
+
+    color: white;
+
+    font-size: 24px;
+
+    line-height: 1.4;
+}
+
+
+/* =========================================
+   CONTENEDOR DE RESPUESTAS
+========================================= */
+
+.respuestas {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+}
+
+
+/* =========================================
+   BOTONES DE RESPUESTA
+========================================= */
+
+.respuesta {
+    min-height: 60px;
+
+    padding: 15px 20px;
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(99, 102, 241, 0.5);
+
+    background: rgba(8, 8, 18, 0.9);
+
+    color: #e9d5ff;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    text-align: left;
+}
+
+
+/* =========================================
+   EFECTO AL PASAR EL RATÓN
+========================================= */
+
+.respuesta:hover:not(:disabled) {
+    transform: translateY(-3px);
+
+    border-color: #a855f7;
+
+    background: rgba(168, 85, 247, 0.12);
+
+    box-shadow: 
+        0 0 12px rgba(168, 85, 247, 0.35), 
+        0 0 25px rgba(37, 99, 235, 0.15);
+}
+
+
+/* =========================================
+   RESPUESTA SELECCIONADA
+========================================= */
+
+.respuesta.seleccionada {
+    border: 2px solid #00e5ff;
+
+    background: 
+        linear-gradient(
+            135deg,
+            rgba(124, 60, 255, 0.8),
+            rgba(37, 99, 235, 0.7)
+        );
+
+    color: white;
+
+    box-shadow: 
+        0 0 12px rgba(0, 229, 255, 0.7), 
+        0 0 25px rgba(124, 60, 255, 0.5);
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   RESPUESTAS DESACTIVADAS
+========================================= */
+
+.respuesta:disabled {
+    cursor: default;
+
+    opacity: 0.55;
+}
+
+
+/* =========================================
+   CONTENEDOR DEL BOTÓN COMPROBAR
+========================================= */
+
+.contenedor-comprobar {
+    width: 100%;
+
+    max-width: 850px;
+
+    margin-top: 35px;
+
+    display: flex;
+
+    justify-content: center;
+}
+
+
+/* =========================================
+   BOTÓN COMPROBAR
+========================================= */
+
+#btnComprobar {
+    width: 100%;
+
+    max-width: 400px;
+
+    padding: 16px 25px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: 
+        linear-gradient(
+            90deg,
+            #9333ea,
+            #2563eb
+        );
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    letter-spacing: 0.5px;
+
+    box-shadow: 
+        0 0 15px rgba(168, 85, 247, 0.5);
+
+    transition: 0.3s;
+}
+
+
+#btnComprobar:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 
+        0 0 15px rgba(168, 85, 247, 0.8), 
+        0 0 35px rgba(37, 99, 235, 0.5);
+}
+
+
+#btnComprobar:active {
+    transform: scale(0.97);
+}
+
+
+/* =========================================
+   PÁGINA DE RESULTADO (ACTUALIZADA)
+========================================= */
+
+.resultado {
+    /* Mantenemos el tamaño, pero quitamos el fondo negro sólido 
+       para que se vea el gradiente radial del body */
+    min-height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* TARJETA DEL RESULTADO */
+.resultado-final {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    text-align: center;
+    
+    /* Estilo cristal (Glassmorphism) */
+    background: rgba(12, 12, 24, 0.85);
+    border: 1px solid rgba(168, 85, 247, 0.45);
+    border-radius: 25px;
+    backdrop-filter: blur(12px);
+    
+    box-shadow: 
+        0 0 20px rgba(168, 85, 247, 0.2), 
+        0 0 50px rgba(37, 99, 235, 0.12);
+        
+    /* Animación de entrada fluida */
+    animation: subir 0.8s ease;
+}
+
+/* TÍTULO DE RESULTADOS */
+.resultado-final h2 {
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: 800;
+    
+    /* Efecto de texto con gradiente */
+    background: linear-gradient(90deg, #c084fc, #60a5fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    text-shadow: 0 0 20px rgba(192, 132, 252, 0.3);
+}
+
+/* TEXTOS NORMALES */
+.resultado-final p {
+    margin: 15px 0;
+    color: #a5b4fc;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+/* DATOS EN NEGRITA */
+.resultado-final strong {
+    color: white;
+    font-size: 22px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+}
+
+/* CAJA DE ACIERTOS Y FALLOS */
+.resultado-datos {
+    padding: 25px 20px;
+    margin: 30px 0;
+    border-radius: 15px;
+    
+    /* Fondo translúcido más oscuro para resaltar los datos */
+    background: rgba(8, 8, 18, 0.6);
+    border: 1px solid rgba(99, 102, 241, 0.3);
+    
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* MENSAJE FINAL (VEREDICTO) */
+.resultado-final h3 {
+    margin-top: 30px;
+    padding: 15px 20px;
+    border-radius: 12px;
+    
+    /* Tonos esmeralda/neón para dar sensación de éxito */
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    
+    color: #34d399;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.15);
+    animation: aparecer 1.2s ease;
+}
+
+
+/* =========================================
+   ANIMACIONES
+========================================= */
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes subir {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 700px) {
+    .navbar {
+        height: auto;
+        min-height: 80px;
+        padding: 15px 20px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .logo {
+        flex-wrap: wrap;
+    }
+
+    .jugador {
+        margin-left: auto;
+    }
+
+    .ronda {
+        margin-left: 0;
+    }
+
+    .juego {
+        padding: 30px 15px 60px;
+    }
+
+    .tarjeta-pregunta {
+        padding: 22px;
+    }
+
+    .tarjeta-pregunta h2 {
+        font-size: 20px;
+    }
+
+    .respuestas {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    .tarjeta {
+        width: 100%;
+        max-width: 420px;
+    }
+    
+    /* Pequeño ajuste responsive extra para la nueva tarjeta de resultado */
+    .resultado-final {
+        padding: 25px 20px;
+    }
+    
+    .resultado-final h2 {
+        font-size: 26px;
+    }
+}
