@@ -1,4 +1,4 @@
-# Practica1 QuizMaster -JUEGO
+# QuizMaster -JUEGO
 
 ## 📌 Descripción
 
