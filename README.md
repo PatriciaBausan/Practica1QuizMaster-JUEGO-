@@ -1,5 +1,4 @@
 # Practica1QuizMaster-JUEGO-
-# 🎮 QuizMaster
 
 ## 📌 Descripción
 
